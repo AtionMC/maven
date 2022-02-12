@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.ationmc",
+    "module": "AtionGradle",
+    "version": "0.0.1-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "AtionGradle-0.0.1-alpha.jar",
+          "url": "AtionGradle-0.0.1-alpha.jar",
+          "size": 44701,
+          "sha512": "9d94b3d8afe52b3f1dceff9e954d963717e0bacad9d12a6a58ad4d3458dea6ad29f0d789eac3e25967dfc1a4335ea95f6d633739f3c3bf8c4c106d3cde285b33",
+          "sha256": "4265ebc21d0890b835d08fdc2795faccf362dea1c7ff5ec7937609edde11a417",
+          "sha1": "c29b7143b8e8bd291779d581ea17610738192850",
+          "md5": "502760d9bef9920d4f75c7107262a05f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AtionGradle-0.0.1-alpha.jar",
+          "url": "AtionGradle-0.0.1-alpha.jar",
+          "size": 44701,
+          "sha512": "9d94b3d8afe52b3f1dceff9e954d963717e0bacad9d12a6a58ad4d3458dea6ad29f0d789eac3e25967dfc1a4335ea95f6d633739f3c3bf8c4c106d3cde285b33",
+          "sha256": "4265ebc21d0890b835d08fdc2795faccf362dea1c7ff5ec7937609edde11a417",
+          "sha1": "c29b7143b8e8bd291779d581ea17610738192850",
+          "md5": "502760d9bef9920d4f75c7107262a05f"
+        }
+      ]
+    }
+  ]
+}
