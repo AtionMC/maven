@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.ationmc",
+    "module": "LaunchWrapper",
+    "version": "0.0.1-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "LaunchWrapper-0.0.1-alpha.jar",
+          "url": "LaunchWrapper-0.0.1-alpha.jar",
+          "size": 18324,
+          "sha512": "2b626a6bfc95a36dade6f65ffd4f458dcbf8ad84f785a7ed8635cb3b31811194b1515979dfc36f64445d25e6d696fe1daa83dd38cd1057a66162e2085d9ba9ab",
+          "sha256": "eb1f94d2337d148905239aeb2355364440e2ebd472d8b71560a91a08590f380a",
+          "sha1": "b64b13740f14c81d259a70787bf03e147b15dca0",
+          "md5": "9e78f9e5eeaf66578943a95eaab809d8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "LaunchWrapper-0.0.1-alpha.jar",
+          "url": "LaunchWrapper-0.0.1-alpha.jar",
+          "size": 18324,
+          "sha512": "2b626a6bfc95a36dade6f65ffd4f458dcbf8ad84f785a7ed8635cb3b31811194b1515979dfc36f64445d25e6d696fe1daa83dd38cd1057a66162e2085d9ba9ab",
+          "sha256": "eb1f94d2337d148905239aeb2355364440e2ebd472d8b71560a91a08590f380a",
+          "sha1": "b64b13740f14c81d259a70787bf03e147b15dca0",
+          "md5": "9e78f9e5eeaf66578943a95eaab809d8"
+        }
+      ]
+    }
+  ]
+}
