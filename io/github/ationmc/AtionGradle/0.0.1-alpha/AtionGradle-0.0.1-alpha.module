@@ -28,10 +28,10 @@
           "name": "AtionGradle-0.0.1-alpha.jar",
           "url": "AtionGradle-0.0.1-alpha.jar",
           "size": 44701,
-          "sha512": "9d94b3d8afe52b3f1dceff9e954d963717e0bacad9d12a6a58ad4d3458dea6ad29f0d789eac3e25967dfc1a4335ea95f6d633739f3c3bf8c4c106d3cde285b33",
-          "sha256": "4265ebc21d0890b835d08fdc2795faccf362dea1c7ff5ec7937609edde11a417",
-          "sha1": "c29b7143b8e8bd291779d581ea17610738192850",
-          "md5": "502760d9bef9920d4f75c7107262a05f"
+          "sha512": "4a1a4c332dcca6749eeed20416bdc30b91f3033b99b3a7a3a17aae92a91f54c846af96cbfcb3e2e7d61ef24b4d300b6b3d547785888fd94fa92c465af88c2e41",
+          "sha256": "4f24c45ce456e29e0f87ad91a8eedc7d2b11746ee8153576c189f6441f383c47",
+          "sha1": "7a85a5519fd4140dad5d8082d7055e93b267e1ae",
+          "md5": "44a16867a8d2a15c4349da033ee52da9"
         }
       ]
     },
@@ -107,10 +107,10 @@
           "name": "AtionGradle-0.0.1-alpha.jar",
           "url": "AtionGradle-0.0.1-alpha.jar",
           "size": 44701,
-          "sha512": "9d94b3d8afe52b3f1dceff9e954d963717e0bacad9d12a6a58ad4d3458dea6ad29f0d789eac3e25967dfc1a4335ea95f6d633739f3c3bf8c4c106d3cde285b33",
-          "sha256": "4265ebc21d0890b835d08fdc2795faccf362dea1c7ff5ec7937609edde11a417",
-          "sha1": "c29b7143b8e8bd291779d581ea17610738192850",
-          "md5": "502760d9bef9920d4f75c7107262a05f"
+          "sha512": "4a1a4c332dcca6749eeed20416bdc30b91f3033b99b3a7a3a17aae92a91f54c846af96cbfcb3e2e7d61ef24b4d300b6b3d547785888fd94fa92c465af88c2e41",
+          "sha256": "4f24c45ce456e29e0f87ad91a8eedc7d2b11746ee8153576c189f6441f383c47",
+          "sha1": "7a85a5519fd4140dad5d8082d7055e93b267e1ae",
+          "md5": "44a16867a8d2a15c4349da033ee52da9"
         }
       ]
     }
